@@ -1,0 +1,6 @@
+POST http://localhost:3000/services
+
+{
+    "serviceName": "Business Services",
+    "serviceURL": "http://localhost:5000/business"
+}
