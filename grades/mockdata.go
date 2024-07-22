@@ -68,5 +68,27 @@ func init() {
 				},
 			},
 		},
+		{
+			ID:        4,
+			FirstName: "Rachel",
+			LastName:  "McAdams",
+			Grades: []Grade{
+				{
+					Title: "Quiz 1",
+					Type:  GradeQuiz,
+					Score: 98,
+				},
+				{
+					Title: "Final Exam",
+					Type:  GradeExam,
+					Score: 99,
+				},
+				{
+					Title: "Quiz 2",
+					Type:  GradeQuiz,
+					Score: 94,
+				},
+			},
+		},
 	}
 }
