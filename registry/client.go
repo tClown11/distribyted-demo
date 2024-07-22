@@ -114,5 +114,6 @@ func (suh serviceUpdateHandler) ServeHTTP(w http.ResponseWriter, r *http.Request
 		w.WriteHeader(http.StatusBadGateway)
 		return
 	}
+	fmt.Printf("Updated recevied %v \n", p)
 	prov.Update(p)
 }
