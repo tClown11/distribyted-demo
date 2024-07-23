@@ -5,13 +5,15 @@ type Registration struct {
 	ServiceURL       string
 	RequiredServices []ServiceName
 	ServiceUpdateURL string
+	HeartBeatURL     string
 }
 
 type ServiceName string
 
 const (
-	LogService     = ServiceName("LogService")
-	GradingService = ServiceName("GradingService")
+	LogService       = ServiceName("LogService")
+	GradingService   = ServiceName("GradingService")
+	HeartbeatService = ServiceName("HeartbeatService")
 )
 
 type patchEntry struct {
